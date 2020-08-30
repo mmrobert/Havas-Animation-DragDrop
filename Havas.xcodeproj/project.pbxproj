@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DB6606B8A8D59366BF68A80 /* Pods_HavasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5DDE015F3C4DB91030CBD2 /* Pods_HavasUITests.framework */; };
+		9B4360DD20BF425900299598 /* View+Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4360DC20BF425900299598 /* View+Rotation.swift */; };
+		9B749E7820BF8EE50051548A /* FetchTimeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B749E7720BF8EE50051548A /* FetchTimeAPI.swift */; };
 		9B7BD79720BEFE96005C6AD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7BD79620BEFE96005C6AD8 /* AppDelegate.swift */; };
 		9B7BD79920BEFE96005C6AD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7BD79820BEFE96005C6AD8 /* ViewController.swift */; };
 		9B7BD79C20BEFE96005C6AD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7BD79A20BEFE96005C6AD8 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		9B7BD7A120BEFE96005C6AD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7BD79F20BEFE96005C6AD8 /* LaunchScreen.storyboard */; };
 		9B7BD7AC20BEFE96005C6AD8 /* HavasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7BD7AB20BEFE96005C6AD8 /* HavasTests.swift */; };
 		9B7BD7B720BEFE96005C6AD8 /* HavasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7BD7B620BEFE96005C6AD8 /* HavasUITests.swift */; };
+		CB2FEC5C72AF2B33C4DB8C76 /* Pods_Havas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A649FB770408769C6E20BAA /* Pods_Havas.framework */; };
+		DA44AFA6AE021A180444E57F /* Pods_HavasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4281BDE6F9DEC3897661BF04 /* Pods_HavasTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F5DDE015F3C4DB91030CBD2 /* Pods_HavasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HavasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C3F4808D842846412C873B /* Pods-Havas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Havas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Havas/Pods-Havas.debug.xcconfig"; sourceTree = "<group>"; };
+		1741F5501C354A0A66B70122 /* Pods-HavasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HavasTests/Pods-HavasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		22365CA0C6828CEAC789C3E7 /* Pods-HavasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HavasUITests/Pods-HavasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4281BDE6F9DEC3897661BF04 /* Pods_HavasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HavasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58CC7AE42C45DD5B246AB6CC /* Pods-HavasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HavasTests/Pods-HavasTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A649FB770408769C6E20BAA /* Pods_Havas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Havas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66693448BF188C56D4B6DDB2 /* Pods-HavasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HavasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HavasUITests/Pods-HavasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F3CB810ABC687D6BD2AF225 /* Pods-Havas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Havas.release.xcconfig"; path = "Pods/Target Support Files/Pods-Havas/Pods-Havas.release.xcconfig"; sourceTree = "<group>"; };
+		9B4360DC20BF425900299598 /* View+Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Rotation.swift"; sourceTree = "<group>"; };
+		9B749E7720BF8EE50051548A /* FetchTimeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchTimeAPI.swift; sourceTree = "<group>"; };
 		9B7BD79320BEFE96005C6AD8 /* Havas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Havas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7BD79620BEFE96005C6AD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B7BD79820BEFE96005C6AD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB2FEC5C72AF2B33C4DB8C76 /* Pods_Havas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA44AFA6AE021A180444E57F /* Pods_HavasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB6606B8A8D59366BF68A80 /* Pods_HavasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D45FEF809D355AADE95D14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A649FB770408769C6E20BAA /* Pods_Havas.framework */,
+				4281BDE6F9DEC3897661BF04 /* Pods_HavasTests.framework */,
+				0F5DDE015F3C4DB91030CBD2 /* Pods_HavasUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B7BD78A20BEFE96005C6AD8 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				9B7BD7AA20BEFE96005C6AD8 /* HavasTests */,
 				9B7BD7B520BEFE96005C6AD8 /* HavasUITests */,
 				9B7BD79420BEFE96005C6AD8 /* Products */,
+				9CDFB54CD261C1C3E695B9FC /* Pods */,
+				22D45FEF809D355AADE95D14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +131,8 @@
 				9B7BD79620BEFE96005C6AD8 /* AppDelegate.swift */,
 				9B7BD79820BEFE96005C6AD8 /* ViewController.swift */,
 				9B7BD79A20BEFE96005C6AD8 /* Main.storyboard */,
+				9B4360DC20BF425900299598 /* View+Rotation.swift */,
+				9B749E7720BF8EE50051548A /* FetchTimeAPI.swift */,
 				9B7BD79D20BEFE96005C6AD8 /* Assets.xcassets */,
 				9B7BD79F20BEFE96005C6AD8 /* LaunchScreen.storyboard */,
 				9B7BD7A220BEFE96005C6AD8 /* Info.plist */,
@@ -125,6 +158,19 @@
 			path = HavasUITests;
 			sourceTree = "<group>";
 		};
+		9CDFB54CD261C1C3E695B9FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14C3F4808D842846412C873B /* Pods-Havas.debug.xcconfig */,
+				6F3CB810ABC687D6BD2AF225 /* Pods-Havas.release.xcconfig */,
+				1741F5501C354A0A66B70122 /* Pods-HavasTests.debug.xcconfig */,
+				58CC7AE42C45DD5B246AB6CC /* Pods-HavasTests.release.xcconfig */,
+				22365CA0C6828CEAC789C3E7 /* Pods-HavasUITests.debug.xcconfig */,
+				66693448BF188C56D4B6DDB2 /* Pods-HavasUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B7BD7BB20BEFE96005C6AD8 /* Build configuration list for PBXNativeTarget "Havas" */;
 			buildPhases = (
+				4A185F6DAF3CF10517FD8DBD /* [CP] Check Pods Manifest.lock */,
 				9B7BD78F20BEFE96005C6AD8 /* Sources */,
 				9B7BD79020BEFE96005C6AD8 /* Frameworks */,
 				9B7BD79120BEFE96005C6AD8 /* Resources */,
+				FB168169AE79307C54790E45 /* [CP] Embed Pods Frameworks */,
+				CA11916F75666FBDB25B7ED5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B7BD7BE20BEFE96005C6AD8 /* Build configuration list for PBXNativeTarget "HavasTests" */;
 			buildPhases = (
+				2680F3CB5A81E1EEA63FAD81 /* [CP] Check Pods Manifest.lock */,
 				9B7BD7A320BEFE96005C6AD8 /* Sources */,
 				9B7BD7A420BEFE96005C6AD8 /* Frameworks */,
 				9B7BD7A520BEFE96005C6AD8 /* Resources */,
+				EEF3EE6A8C395293F35EFBC3 /* [CP] Embed Pods Frameworks */,
+				02665CDBD298546CF2D480F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B7BD7C120BEFE96005C6AD8 /* Build configuration list for PBXNativeTarget "HavasUITests" */;
 			buildPhases = (
+				8E500A64AD46A5D86A581E21 /* [CP] Check Pods Manifest.lock */,
 				9B7BD7AE20BEFE96005C6AD8 /* Sources */,
 				9B7BD7AF20BEFE96005C6AD8 /* Frameworks */,
 				9B7BD7B020BEFE96005C6AD8 /* Resources */,
+				415A84A9474A1540CD80CD06 /* [CP] Embed Pods Frameworks */,
+				993C3CE286E952B82768835A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,11 +309,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02665CDBD298546CF2D480F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HavasTests/Pods-HavasTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2680F3CB5A81E1EEA63FAD81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HavasTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		415A84A9474A1540CD80CD06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HavasUITests/Pods-HavasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A185F6DAF3CF10517FD8DBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Havas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E500A64AD46A5D86A581E21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HavasUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		993C3CE286E952B82768835A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HavasUITests/Pods-HavasUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA11916F75666FBDB25B7ED5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Havas/Pods-Havas-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEF3EE6A8C395293F35EFBC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HavasTests/Pods-HavasTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB168169AE79307C54790E45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Havas/Pods-Havas-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Marshal/Marshal.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Marshal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Havas/Pods-Havas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B7BD78F20BEFE96005C6AD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B749E7820BF8EE50051548A /* FetchTimeAPI.swift in Sources */,
+				9B4360DD20BF425900299598 /* View+Rotation.swift in Sources */,
 				9B7BD79920BEFE96005C6AD8 /* ViewController.swift in Sources */,
 				9B7BD79720BEFE96005C6AD8 /* AppDelegate.swift in Sources */,
 			);
@@ -424,6 +639,7 @@
 		};
 		9B7BD7BC20BEFE96005C6AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C3F4808D842846412C873B /* Pods-Havas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +655,7 @@
 		};
 		9B7BD7BD20BEFE96005C6AD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F3CB810ABC687D6BD2AF225 /* Pods-Havas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +671,7 @@
 		};
 		9B7BD7BF20BEFE96005C6AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1741F5501C354A0A66B70122 /* Pods-HavasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +689,7 @@
 		};
 		9B7BD7C020BEFE96005C6AD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CC7AE42C45DD5B246AB6CC /* Pods-HavasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +707,7 @@
 		};
 		9B7BD7C220BEFE96005C6AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22365CA0C6828CEAC789C3E7 /* Pods-HavasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +724,7 @@
 		};
 		9B7BD7C320BEFE96005C6AD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66693448BF188C56D4B6DDB2 /* Pods-HavasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

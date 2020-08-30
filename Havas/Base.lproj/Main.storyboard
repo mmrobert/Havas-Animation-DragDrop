@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,13 +14,52 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Havas" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zyv-Lq-1oH">
+                                <rect key="frame" x="137" y="80" width="100" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vzv-dw-Wwa">
+                                        <rect key="frame" x="50" y="50.5" width="0.0" height="0.0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.63892431972789121" green="0.82987882653061229" blue="0.92049319727891155" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Vzv-dw-Wwa" firstAttribute="centerX" secondItem="Zyv-Lq-1oH" secondAttribute="centerX" id="1ky-Rl-tHi"/>
+                                    <constraint firstAttribute="width" constant="100" id="Kca-2R-SkM"/>
+                                    <constraint firstItem="Vzv-dw-Wwa" firstAttribute="centerY" secondItem="Zyv-Lq-1oH" secondAttribute="centerY" id="Tgr-PX-Hky"/>
+                                    <constraint firstAttribute="width" secondItem="Zyv-Lq-1oH" secondAttribute="height" multiplier="1:1" id="cAZ-Nl-0Kj"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WpT-3Y-7xI" userLabel="slidingView">
+                                <rect key="frame" x="0.0" y="642" width="375" height="25"/>
+                                <color key="backgroundColor" white="0.89963329081632648" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="ezO-K9-JIC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WpT-3Y-7xI" secondAttribute="trailing" id="JyN-bk-VQD"/>
+                            <constraint firstItem="WpT-3Y-7xI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Sea-vw-ZNg"/>
+                            <constraint firstItem="Zyv-Lq-1oH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="V60-jm-tJm"/>
+                            <constraint firstItem="Zyv-Lq-1oH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sJ6-5E-PYe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WpT-3Y-7xI" secondAttribute="bottom" id="wFe-OG-oQQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="slidingViewHeight" destination="ezO-K9-JIC" id="gIu-Iy-Fgo"/>
+                        <outlet property="timeLabel" destination="Vzv-dw-Wwa" id="HRC-hq-PQ1"/>
+                        <outlet property="viewToDrag" destination="Zyv-Lq-1oH" id="5dQ-Gd-91L"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
